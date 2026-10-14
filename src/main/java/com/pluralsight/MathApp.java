@@ -21,15 +21,19 @@ public class MathApp {
 
         // area of a circle
         double radius = 7.25;
+        // Math.pow is a method for "power of" first param is number you want to assign
+        // second is the power you want to assign it
         double area = Math.PI * Math.pow(radius, 2);
         System.out.println("The area of a circle is " + area);
 
         // square root
         double num = 5.0;
+        // sqrt = pass a number in to get the square root of it
         double squareRoot = Math.sqrt(num);
         System.out.println("The square root is " + squareRoot);
 
         double x1 = 5, y1 = 10, x2 = 85, y2 = 50;
+        // PEMDAS style, first get the "power of" then combine the outcome and find square root
         double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 -y1,2));
         System.out.println("The distance between (5, 10) and (85, 50) is " + distance);
 
@@ -44,7 +48,7 @@ public class MathApp {
 
         // Minutes and Milliseconds in 24 days
         long days = 24, hoursPerDay = 24, minutesPerHour = 60, secondsPerMinute = 60, millisecondsPerSecond = 1000;
-        long totalMinutes = days * hoursPerDay * minutesPerHour * secondsPerMinute * millisecondsPerSecond;
+        long totalMinutes = days * hoursPerDay * minutesPerHour;
         System.out.println("The total minutes in 24 days is " + totalMinutes);
 
         // Bonus
