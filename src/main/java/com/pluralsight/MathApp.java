@@ -3,6 +3,7 @@ package com.pluralsight;
 public class MathApp {
     static void main() {
         // step 1: using code to find answers
+
         // 2 variable to represent the salary of 2 people
         int bobSalary =50000;
         int garySalary= 48000;
@@ -32,6 +33,7 @@ public class MathApp {
         double squareRoot = Math.sqrt(num);
         System.out.println("The square root is " + squareRoot);
 
+        // display the distance of 2 points
         double x1 = 5, y1 = 10, x2 = 85, y2 = 50;
         // PEMDAS style, first get the "power of" then combine the outcome and find square root
         double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 -y1,2));
